@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <!-- body of form starts -->
+    <div class="signupbox">
+        <h2>Registration Form</h2>
+        <form>
+            <!-- First Name -->
+            <p>First Name</p>
+            <input type="name" class="box" placeholder="First Name" required="">
+            <!--Last Name  -->
+            <p>Last Name</p>
+            <input type="name" class="box" placeholder="Last Name" required="">
+            <!--Phone Number  -->
+            <p>Phone Number</p>
+            <input type="name" class="box" placeholder="Phone number" required="">
+            <!-- Date of Birth -->
+            <p>Date of Birth</p>
+            <input type="date" class="box" placeholder="Date of Birth" required="" min="1900-01-01" max="2050-01-01">
+            <!-- Favourite Color -->
+            <p>Favourite Color</p>
+            <input type="color" class="box" value="ff0000" required="">
+            <!-- Password -->
+            <p>Password</p>
+            <input type="password" class="box" placeholder="password" required="">
+            <!-- Gender -->
+            <p id="gender">Gender</p>
+            <input type="radio" name="gender" value="male" required="" class="male">Male
+            <input type="radio" name="gender" value="female" required="" class="female">female
+            <!-- Terms and condition -->
+           <p><input type="checkbox" required="" class="terms">I agree to the terms and conditions</p>
+           <!-- Submit -->
+          <p><input type="submit" class="submit" value="SUBMIT"></p>
+        </form>
+
+    </div>
+
+    <div class="login">
+        <p>If you already have an account Login here<a href="index4.html"><button type="submit">Login</button></a></p>
+        
+
+    </div>
